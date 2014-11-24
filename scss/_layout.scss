@@ -19,8 +19,17 @@ section h1 {
 	border-radius: 7px;
 }
 
-nav {
+header nav {
 	background-color: $light;
+		li {
+		display: inline;
+		margin: 0px 20px 0px 0px;
+		padding: 10px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-ms-border-radius: 15px;
+		border-radius: 15px;
+	}
 }
 
 article {
@@ -28,4 +37,8 @@ article {
 	padding: 15px;
 	border-radius: 10px;
 	margin-bottom: 20px;
+}
+
+footer {
+	display: inline;
 }
