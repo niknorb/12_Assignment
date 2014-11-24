@@ -1,0 +1,31 @@
+$white: #fff;
+$dark: #2C3E50;
+$light: #2980B9;
+
+body {
+	width: 640px;
+	margin: auto;
+	background-color: $dark;
+}
+
+img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+section h1 {
+	background-color: $white;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+nav {
+	background-color: $light;
+}
+
+article {
+	background-color: $light;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}

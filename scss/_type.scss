@@ -1,0 +1,51 @@
+$white: #fff;
+$red: #E74C3C;
+$headerfont: Helvetica, sans-serif;
+
+h1 {
+	font-family: $headerfont;
+	text-transform: uppercase;
+}
+
+header h1 {
+	color: $white;
+	font-size: 3em;
+}
+
+h2 {
+	color: $white;
+	font-family: serif;
+}
+
+header h2 {
+	font-size: 1em;
+}
+
+nav {
+	color: #2C3E50;
+	list-style: none;
+	font-size: 1.5em;
+	font-family: $headerfont;
+}
+
+a {
+	text-decoration: none;
+	color: #2C3E50;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: $white;
+}
+
+section h1 {
+	color: $red;
+	font-size: 2em;
+}
+
+article {
+	color: $white;
+}
