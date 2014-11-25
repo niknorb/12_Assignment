@@ -3,43 +3,6 @@ $red: #E74C3C;
 $dark: #2C3E50;
 $headerfont: Helvetica, sans-serif;
 
-header {
-		
-		h1 {
-			color: $white;
-			font-size: 4em;
-			text-transform: uppercase;
-			font-family: $headerfont;
-		}
-}
-
-
-
-section h1 {
-	color: $red;
-	font-size: 2em;
-	font-family: $headerfont;
-	text-transform: uppercase;
-}
-
-h2 {
-	color: $white;
-	font-family: serif;
-}
-
-header h2 {
-	font-size: 1em;
-}
-
-nav {
-	color: $dark;
-	font-size: 1.5em;
-	font-family: $headerfont;
-		ul{
-			list-style: none;
-		}
-}
-
 a {
 	text-decoration: none;
 	color: $dark;
@@ -53,6 +16,47 @@ a:hover {
 	color: $white;
 }
 
+header {		
+	h1 {
+		color: $white;
+		font-size: 4em;
+		text-transform: uppercase;
+		font-family: $headerfont;
+	}
+	h2 {
+		color: $white;
+		font-family: serif;		
+		font-size: 1em;
+		font-weight: normal;
+	}
+}
+
+nav {
+	color: $dark;
+	font-size: 1.5em;
+	font-family: $headerfont;
+		ul{
+			list-style: none;
+		}
+}
+
+section {
+	h1 {
+		color: $red;
+		font-size: 2em;
+		font-family: $headerfont;
+		text-transform: uppercase;
+	}
+	h2 {
+	color: $white;
+	font-family: serif;
+	}
+	h3 {
+		font-weight: normal;
+	}
+
+}
+
 article {
 	color: $white;
 	h2 {
@@ -63,25 +67,28 @@ article {
 
 
 footer {
+	text-transform: lowercase;
+	font-size: .5em;
+	color: $white;
+	font-family: $headerfont;
 		h1 { 
-		color: $white;
-		font-size: .5em;
-		text-transform: lowercase;
+		display: inline;
+		font-size: .5em;	
 		margin: 0px;
 		padding: 0px;
+		width: auto;
 	}
 }
 
 footer nav { 
-			color: $white;
-			font-family: $headerfont;
-			ul {
-				list-style: none;
-			}
+		ul {
+			list-style: none;
 		}
 
-footer h2 {
-	text-transform: lowercase;
-	font-size: .5em;
-
+		li a {
+			color: $white;
+			font-family: $headerfont;
+			text-transform: lowercase;
+			font-size: .5em;	
+		}
 }
